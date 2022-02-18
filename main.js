@@ -150,5 +150,10 @@ const students = [
 
 // // Challenge 15
 // // Use .concat to combine the fosllowing two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
-// const primaries = ['red', 'yellow', 'blue'];
-// const secondaries = ['orange', 'green', 'purple'];
+const primaries = ['red', 'yellow', 'blue'];
+const secondaries = ['orange', 'green', 'purple'];
+const together = (primaries.concat(secondaries))
+
+console.log(together);
+console.log(primaries);
+console.log(secondaries);
